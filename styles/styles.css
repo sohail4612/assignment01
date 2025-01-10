@@ -186,3 +186,28 @@ body{
     color: #FFFFFF;
     background-color: #FFC239;
   }
+  /* quote section styles */
+  #quote{
+    margin: 0px 160px 80px 160px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px 50px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 60px 30px;
+  }
+  .quote-text{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+  }
+  .quote-author{
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+  }
+  .author-designation{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+  }
