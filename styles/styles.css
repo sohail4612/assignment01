@@ -1,7 +1,7 @@
 /* fira sans font import */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+body{
     background-color: #F1F1F3;
 }
 .fira-sans-regular {
@@ -52,15 +52,16 @@
   .banner-title{
     color: #0E0E0E;
     opacity: 50%;
-    background-color: #C6E4D6;
+    
   }
   .banner-text{
     color: #0E0E0E;
     font-size: 56px;
-    background-color: #C6E4D6;
+    
   }
   .button2{
     padding: 17px 34px;
+    font-size: 18px;
     border: none;
     border-radius: 8px;
     color: #FFFFFF;
@@ -94,7 +95,7 @@
     color: #0E0E0E;
     font-size: 40px;
 }
-.cards{
+.pillars-cards{
     display: flex;
     text-align: start;
     justify-content: space-between;
@@ -107,19 +108,81 @@
     border-radius: 16px;
     background-color: #FFFFFF;
 }
-.pillars-card-title{
-    background-color: #FFFFFF;
+
+.card-title{
+   
     color: #0E0E0E ;
     opacity: 80%;
     font-size: 20px;
 }
-.pillars-card-text{
-    background-color: #FFFFFF;
+.card-text{
+   
     color: #0E0E0E ;
     opacity: 70%;
     font-size: 16px;
 
 }
-.card-image{
-    background-color: #FFFFFF;
+/* The Vision of Future section styles */
+#vision{
+    margin: 80px 160px 80px 160px;
 }
+.vision-title{
+    font-size: 40px;
+}
+.vision-text{
+    font-size: 16px;
+    opacity: 70%;
+}
+.vision-cards{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    gap: 24px;
+   
+}
+.card2{
+    
+    padding: 24px 24px;
+    border-radius: 16px;
+    background-color: #5490F520;
+    
+
+}
+.card3{
+    
+    padding: 24px 24px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+}
+.card4{
+    
+    padding: 24px 24px;
+    border-radius: 16px;
+    background-color: #F7EBCF;
+    max-width: 411;
+}
+
+.button3{
+    padding: 11px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+  }
+  .button4{
+    padding: 11px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+  }
+  .button5{
+    padding: 11px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+  }
