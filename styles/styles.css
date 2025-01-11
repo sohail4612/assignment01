@@ -212,7 +212,7 @@ body{
     color: #0E0E0E;
     opacity: 60%;
   }
-  /* your opinion matters sectin styles */
+  /* your opinion matters section styles */
   #opinion{
     margin: 0px 160px 80px 160px;
   }
@@ -277,7 +277,7 @@ body{
     padding: 56px 48px;
     margin-top: 32px;
   }
-  .satelite-image{
+  .satellite-image{
     border-radius: 24px;
   }
   .date-time{
@@ -305,3 +305,63 @@ body{
     opacity: 80%;
 
   }
+  /* donate today section styles */
+  #donate{
+    margin: 0px 160px 80px 160px;
+
+  }
+  .donate-title{
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .donate-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    text-align: center;
+  }
+  .amount1{
+    font-size: 40px;
+    color: #0E0E0E;
+    opacity: 80%;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+  }
+  .amount2{
+    font-size: 40px;
+    color: #0E0E0E;
+    opacity: 80%;
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+  }
+  
+  .donate-cards{
+    display: flex;
+    justify-content:space-around;
+    gap: 24px;
+    margin: 32px;
+  }
+  .text-field{
+    color: #0E0E0E;
+    font-size: 20px;
+    width: 85%;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    margin: 32px;
+
+  }
+  .input-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+
