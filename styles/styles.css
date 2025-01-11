@@ -50,6 +50,12 @@ nav {
   font-size: 18px;
 
 }
+.button1:hover {
+  color: #FFFFFF;
+  background-color: #006A50;
+  cursor: pointer;
+
+}
 
 /* banner styles */
 #banner {
@@ -76,10 +82,17 @@ nav {
 .button2 {
   padding: 17px 34px;
   font-size: 18px;
-  border: none;
+  border-color: #006A50;
   border-radius: 8px;
   color: #FFFFFF;
   background-color: #006A50;
+}
+.button2:hover {
+  color: #006A50;
+  border-color:  #006A50;
+  background-color:#C6E4D6;
+  cursor: pointer;
+  
 }
 
 .banner-content {
@@ -108,7 +121,7 @@ nav {
 .pillars-cards {
   display: flex;
   text-align: start;
-  justify-content: space-between;
+  justify-content: center;
   gap: 32px;
 
 }
@@ -153,7 +166,7 @@ nav {
 .vision-cards {
   display: flex;
   text-align: start;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
 
 }
@@ -323,6 +336,7 @@ select {
   color: #0E0E0E;
   opacity: 70%;
   font-size: 16px;
+  gap: 20px;
 
 }
 
