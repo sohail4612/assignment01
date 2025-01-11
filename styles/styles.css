@@ -128,6 +128,7 @@ body{
 }
 .vision-title{
     font-size: 40px;
+    margin: 20px 0px;
 }
 .vision-text{
     font-size: 16px;
@@ -209,7 +210,7 @@ body{
   .author-designation{
     font-size: 16px;
     color: #0E0E0E;
-    opacity: 80%;
+    opacity: 60%;
   }
   /* your opinion matters sectin styles */
   #opinion{
@@ -217,6 +218,7 @@ body{
   }
   .opinion-title{
     font-size: 40px;
+    margin: 20px 0px;
   }
   .opinion-container{
     padding: 32px;
@@ -250,4 +252,56 @@ body{
     border-color: #006A50;
     background-color: #C6E4D6;
     text-align: center;
+  }
+  /* recent news section styles */
+  #recent-news{
+    margin: 0px 160px 80px 160px;
+  }
+  .recent-news-title{
+    font-size: 40px;
+    color: #0E0E0E;
+    margin: 20px 0px;
+    
+  }
+  .recent-news-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+  }
+  .recent-news-article{
+    display: flex;
+    text-align: center;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 56px 48px;
+    margin-top: 32px;
+  }
+  .satelite-image{
+    border-radius: 24px;
+  }
+  .date-time{
+    display: flex;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+
+  }
+  .recent-news-article-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .recent-news-article-description{
+    text-align: left;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+  
+  }
+  .recent-news-article-title{
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 80%;
+
   }
