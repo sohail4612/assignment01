@@ -132,6 +132,10 @@ nav {
   border-radius: 16px;
   background-color: #FFFFFF;
 }
+.card1:hover {
+  background-color: #C6E4D6;
+}
+
 
 .card-title {
 
@@ -176,7 +180,9 @@ nav {
   padding: 24px 24px;
   border-radius: 16px;
   background-color: #5490F520;
-
+}
+.card2:hover {
+  background-color: rgba(4, 186, 186, 0.496);
 
 }
 
@@ -186,6 +192,11 @@ nav {
   border-radius: 16px;
   background-color: #C6E4D6;
 }
+.card3:hover {
+  background-color: rgba(62, 234, 0, 0.432);
+  cursor: pointer;
+
+}
 
 .card4 {
 
@@ -194,7 +205,10 @@ nav {
   background-color: #F7EBCF;
   max-width: 411;
 }
+.card4:hover {
+  background-color: rgba(255, 255, 0, 0.395);
 
+}
 .button3 {
   padding: 11px 20px;
   font-size: 16px;
@@ -202,6 +216,10 @@ nav {
   border-radius: 8px;
   color: #FFFFFF;
   background-color: #5490F5;
+}
+.button3:hover {
+  background-color: purple;
+  cursor: pointer;
 }
 
 .button4 {
@@ -212,6 +230,10 @@ nav {
   color: #FFFFFF;
   background-color: #09A15C;
 }
+.button4:hover {
+  background-color: rgb(0, 120, 72);
+  cursor: pointer;
+}
 
 .button5 {
   padding: 11px 20px;
@@ -220,6 +242,10 @@ nav {
   border-radius: 8px;
   color: #FFFFFF;
   background-color: #FFC239;
+}
+.button5:hover {
+  background-color: red;
+  cursor: pointer;
 }
 
 /* quote section styles */
@@ -298,6 +324,12 @@ select {
   background-color: #C6E4D6;
   text-align: center;
 }
+select:hover {
+
+  background-color: pink;
+  cursor: pointer;
+}
+
 
 /* recent news section styles */
 #recent-news {
@@ -389,6 +421,10 @@ select {
   background-color: #FFFFFF;
   border-radius: 16px;
 }
+.amount1:hover {
+  background-color: pink;
+  cursor: pointer;
+}
 
 .amount2 {
   font-size: 40px;
@@ -397,6 +433,10 @@ select {
   padding: 40px;
   background-color: #C6E4D6;
   border-radius: 16px;
+}
+.amount2:hover {
+  background-color: pink;
+  cursor: pointer;
 }
 
 .donate-cards {
@@ -474,6 +514,10 @@ select {
   color: #FFFFFF;
   background-color: #006A50;
 }
+.search-button:hover{
+  background-color: rgba(255, 0, 0, 0.677);
+  cursor: pointer;
+}
 
 .subscribe-footer {
   font-size: 16px;
@@ -500,4 +544,7 @@ footer {
   justify-content: center;
   gap: 24px;
   padding: 32px 32px 32px 50px;
+}
+.social-icon:hover {
+cursor: pointer;
 }
