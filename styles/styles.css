@@ -49,6 +49,14 @@ body{
   }
 
   /* banner styles */
+  #banner{
+    padding: 80px;
+    margin: 20px 160px 80px 160px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    align-items: center;   
+  }
   .banner-title{
     color: #0E0E0E;
     opacity: 50%;
@@ -66,14 +74,6 @@ body{
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #006A50;
-  }
-  #banner{
-    padding: 80px;
-    margin: 20px 160px 80px 160px;
-    border-radius: 24px;
-    background-color: #C6E4D6;
-    display: flex;
-    align-items: center;   
   }
   .banner-content{
     display: flex;
@@ -124,7 +124,7 @@ body{
 }
 /* The Vision of Future section styles */
 #vision{
-    margin: 80px 160px 80px 160px;
+    margin: 0px 160px 80px 160px;
 }
 .vision-title{
     font-size: 40px;
@@ -210,4 +210,44 @@ body{
     font-size: 16px;
     color: #0E0E0E;
     opacity: 80%;
+  }
+  /* your opinion matters sectin styles */
+  #opinion{
+    margin: 0px 160px 80px 160px;
+  }
+  .opinion-title{
+    font-size: 40px;
+  }
+  .opinion-container{
+    padding: 32px;
+    border: solid #F1F1F3;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+  }
+  .opinion-table{
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  th{
+    padding: 24px;
+    text-align: left;
+    background-color: #C6E4D6;
+    font-size: 20px;
+    border-top: solid #F1F1F3;
+    border-left: solid #F1F1F3;
+    border-right: solid #F1F1F3;
+  }
+  td{
+    padding: 24px;
+    border: solid #F1F1F3;
+    font-size: 16px;
+  }
+  select{
+    padding: 24px;
+    width: 100%;
+    border-radius: 4px;
+    border-color: #006A50;
+    background-color: #C6E4D6;
+    text-align: center;
   }
